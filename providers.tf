@@ -6,6 +6,7 @@ provider "aws" {
       Owner       = "taco-wagon-team"
       Environment = var.environment
       Region      = var.region
+      Prefix      = var.prefix
     }
   }
 }
